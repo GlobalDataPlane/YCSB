@@ -1,0 +1,18 @@
+// To build this file for java, install protoc which is included in the 
+// default protobuf installation.  Find more information here:
+// https://github.com/protocolbuffers/protobuf/tree/main/java 
+// 
+// After installation, run the following command from this directory:
+// protoc --java_out=. capsuleDBRequest.proto
+
+syntax = "proto2";
+
+package capsuleDBProtos;
+
+import "kvs_payload.proto";
+
+message DBRequest { 
+    optional int32 requestingEnclaveID = 1;
+    optional string requestedkey = 2;
+    optional Kvs_payload payload = 3;
+}  
