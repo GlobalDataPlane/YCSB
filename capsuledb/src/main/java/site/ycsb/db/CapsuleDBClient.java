@@ -21,7 +21,7 @@ import org.zeromq.ZContext;
 public class CapsuleDBClient extends DB {
     private ZContext context;
     private ZMQ.Socket socket;
-    private String DELIMETER = ";";
+    private String DELIMETER = ";;;;";
 
     @Override
     public void init() throws DBException {
@@ -59,7 +59,7 @@ public class CapsuleDBClient extends DB {
         }
 
         // Split value on delimiter
-        String[] parts = retrievedRequest.getPayload().getValue().split(";");
+        String[] parts = retrievedRequest.getPayload().getValue().split(DELIMETER);
 
         // Iterate through fields / retreived values and add to result
         for (int i = 0; i < parts.length; i += 2) {
@@ -95,7 +95,7 @@ public class CapsuleDBClient extends DB {
         Map<String, String> stringifiedMap = StringByteIterator.getStringMap(values);
         String valuesCombined = "";
         for (String valuesKey : stringifiedMap.keySet()) {
-            valuesCombined += valuesKey + ";" + stringifiedMap.get(valuesKey) + ";";
+            valuesCombined += valuesKey + DELIMETER + stringifiedMap.get(valuesKey) + DELIMETER;
         }
         valuesCombined = valuesCombined.substring(0, valuesCombined.length() - 1);
 
