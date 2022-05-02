@@ -102,6 +102,11 @@ LICENSE file.
         <artifactId>slf4j-api</artifactId>
         <version>1.7.25</version>
       </dependency>
+      <dependency>
+        <groupId>org.zeromq</groupId>
+        <artifactId>jeromq</artifactId>
+        <version>0.5.2</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
@@ -117,6 +122,7 @@ LICENSE file.
     <asynchbase.version>1.8.2</asynchbase.version>
     <azurecosmos.version>4.8.0</azurecosmos.version>
     <azurestorage.version>4.0.0</azurestorage.version>
+    <capsuledb.version>1.0.0</capsuledb.version>
     <cassandra.cql.version>3.0.0</cassandra.cql.version>
     <cloudspanner.version>2.0.1</cloudspanner.version>
     <couchbase.version>1.4.10</couchbase.version>
@@ -164,6 +170,7 @@ LICENSE file.
     <module>asynchbase</module>
     <module>azurecosmos</module>
     <module>azuretablestorage</module>
+    <module>capsuledb</module>
     <module>cassandra</module>
     <module>cloudspanner</module>
     <module>couchbase</module>
