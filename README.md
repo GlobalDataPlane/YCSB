@@ -22,7 +22,7 @@ LICENSE file.
 
 ## This Fork
 
-This repo holds all YCSB bindings for GDP projects.  Currently, only bindings for CapsuleDB have been added.  However, they provide an example for future YCSB development.  This file assumes you have familiarity with each of the systems you are benchmarking.  For information about running workloads, adding new databases, different options, and other details about YCSB, see the original repo and docs [here](https://github.com/brianfrankcooper/YCSB) written by Brian Frank Cooper and the YCSB team.  Please note, the CapsuleDB binding does not currently pass the style checker.
+This repo holds all YCSB bindings for GDP projects.  Currently, only bindings for CapsuleDB have been added.  However, they provide an example for future YCSB development.  This file assumes you have familiarity with each of the systems you are benchmarking.  For information about running workloads, adding new databases, different options, and other details about YCSB, see the original repo and docs [here](https://github.com/brianfrankcooper/YCSB).  The vast majority of this code was written by Brian Frank Cooper and the YCSB team, all credit for YCSB core and the non-GDP bindings go to them.  Please note, the CapsuleDB binding does not currently pass the style checker.
 
 ## Requirements
 
