@@ -108,6 +108,9 @@ public class CapsuleDBClient extends DB {
         // Send via ZMQ
         socket.send(serializedRequest, 0, serializedRequest.length, 0);
 
+        // Receive the payload
+        byte[] reply = socket.recv(0);
+
         return Status.OK;
     }
 
