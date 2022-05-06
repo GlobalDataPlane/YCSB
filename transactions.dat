@@ -1,7 +1,7 @@
 Connecting to CapsuleDB server
 Socket established
-[OVERALL], RunTime(ms), 663
-[OVERALL], Throughput(ops/sec), 1508.2956259426849
+[OVERALL], RunTime(ms), 11475
+[OVERALL], Throughput(ops/sec), 87.14596949891067
 [TOTAL_GCS_G1_Young_Generation], Count, 0
 [TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
 [TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
@@ -11,23 +11,23 @@ Socket established
 [TOTAL_GCs], Count, 0
 [TOTAL_GC_TIME], Time(ms), 0
 [TOTAL_GC_TIME_%], Time(%), 0.0
-[READ], Operations, 515
-[READ], AverageLatency(us), 1056.9339805825243
-[READ], MinLatency(us), 110
-[READ], MaxLatency(us), 56351
-[READ], 95thPercentileLatency(us), 872
-[READ], 99thPercentileLatency(us), 37695
-[READ], Return=OK, 515
+[READ], Operations, 485
+[READ], AverageLatency(us), 23374.863917525774
+[READ], MinLatency(us), 590
+[READ], MaxLatency(us), 1596415
+[READ], 95thPercentileLatency(us), 14527
+[READ], 99thPercentileLatency(us), 21535
+[READ], Return=OK, 485
 [CLEANUP], Operations, 1
 [CLEANUP], AverageLatency(us), 0.0
 [CLEANUP], MinLatency(us), 0
 [CLEANUP], MaxLatency(us), 0
 [CLEANUP], 95thPercentileLatency(us), 0
 [CLEANUP], 99thPercentileLatency(us), 0
-[UPDATE], Operations, 485
-[UPDATE], AverageLatency(us), 64.30309278350515
-[UPDATE], MinLatency(us), 18
-[UPDATE], MaxLatency(us), 2497
-[UPDATE], 95thPercentileLatency(us), 121
-[UPDATE], 99thPercentileLatency(us), 170
-[UPDATE], Return=OK, 485
+[UPDATE], Operations, 515
+[UPDATE], AverageLatency(us), 102.24854368932039
+[UPDATE], MinLatency(us), 11
+[UPDATE], MaxLatency(us), 24575
+[UPDATE], 95thPercentileLatency(us), 116
+[UPDATE], 99thPercentileLatency(us), 152
+[UPDATE], Return=OK, 515
